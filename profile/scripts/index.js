@@ -1,4 +1,4 @@
-import Navbar from './navbar.js'
+import Navbar from './navbar.js';
 
 // // Navbar Component
 // class Navbar extends React.Component {
