@@ -37,7 +37,7 @@ class Intro extends React.Component{
 
   render() {
     const name = React.createElement('div', {className: 'intro', id: 'name'}, "Richard Constantine");
-    const pic = React.createElement('img', {className: 'intro', id: 'selfee', src: 'assets/selfee.jpg', alt: 'https://github.com/Age-of-Ruin/Age-of-Ruin.github.io/blob/master/profile/assets/Selfee.jpg'}, null);
+    const pic = React.createElement('img', {className: 'intro', id: 'selfee', src: 'assets/Selfee.jpg'}, null);
     // const sumString = "Hi there, my name is Rick. I acquired my BSC in Computer Engineer (with a focus in Software " + 
     // "Engineering from the University of Manitoba in June of 2019. Electrical systems have always facinated me since age; " +
     // "growing up alongside massive technilogical leaps in automation and ubiquity have only strengthened that facination. " + 
