@@ -1,9 +1,12 @@
 body {
-    background: #9c9c9c;
-    color: #D6ED17FF;
+    background: #3AAFA9;
+    background-image: url(../assets/city.png);
+    background-repeat: no-repeat;
+    background-size: 100% 105%;
+    color: #FEFFFF;
     font-family: 'arial';
     text-align: center;
-    overflow-y: auto;
+
 }
 
 .navbar {
@@ -14,34 +17,36 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #494949;
-    border-bottom:1px solid #D6ED17FF;
+    background-color: #17252A;
+    border-bottom: 1px solid #FEFFFF;
 }
 
 .navbar-item {
     cursor: pointer;
     padding: 14px 20px;
     float: right;
-    border-right: 1px solid #D6ED17FF;
+    border-right: 1px solid #FEFFFF;
 }
 
 .navbar-item:hover {
-    background-color: #070707;
+    background-color: #2B7A78;
 }
 
-#home {
-    border-left: 1px solid #D6ED17FF;
+#homeButton {
+    border-left: 1px solid #FEFFFF;
 }
 
-.intro{
+.header{
     margin-top: 40px;
     vertical-align: middle;
+    margin-bottom: 2vh;
 }
 
 #name {
     display: inline-block;
     font-size: 50px;
     font-family: 'Audiowide';
+    font-size: 5vmin;
 }
 
 #selfee {
@@ -50,58 +55,69 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50px;
-    border: 2px solid #D6ED17FF;
+    border: 2px solid #FEFFFF;
     
 }
 
+.find-me {
+    font-size: 40px;
+    font-family: 'Audiowide';
+    margin-top: 30vh;
+}
+
+.about-me{
+    margin-bottom: 8.15vh;
+}
+
 #summary {
-    margin-right: 15%;
-    margin-left: 15%;
     font-size: 18px;
     line-height: 1.8;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .slideshow{
-    display: block;
     text-align: center;
-    font-size: 80px;
-    overflow: hidden;
+    font-size: 10vmin;
     font-family: 'Audiowide';
+    overflow: hidden;
 }
 
-#fullstack {
+#skills {
     position: relative;
     animation: example 6s infinite;
-    height: 550px;
+    height: 53.6vh;
+    color: #DEF2F1;
 }
 
 @keyframes example {
-    0% {opacity: 0; top: 50px}
+    0% {opacity: 0; top: 2vh}
     50% {opacity: 1}
-    100% {opacity: 0; top:375px}
-}
-
-
-.findme {
-    font-size: 40px;
-    font-family: 'Audiowide';
-    margin-top: 300px;
+    100% {opacity: 0; top: 35vh}
 }
 
 svg {
     width: 50px;
     height: 50px;
     cursor: pointer;
-    fill: black;
+    fill: #17252A;
+    text-decoration: none;
 }
 
 svg:hover {
-    fill: #D6ED17FF;
+    fill: #2B7A78;
 }
 
-.footer{
-    display: inline-block;
+#react-text, #react{
+    display:inline-block;
     vertical-align: middle;
-    margin-top: 2%;
     font-size: 20px;
+}
+
+a{
+    color: #FEFFFF;
+}
+
+a:hover{
+    color: #2B7A78;
 }
