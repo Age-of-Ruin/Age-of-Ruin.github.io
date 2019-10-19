@@ -3,8 +3,8 @@
 // Find Me
 class Footer extends React.Component{
 
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
   }
 
   render(){
@@ -26,17 +26,19 @@ class Footer extends React.Component{
 // Slideshow
 class Slideshow extends React.Component{
 
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
   }
 
   render(){
     let title = React.createElement('div', {className: 'slideshow', id: 'slideshow-title'}, 'Do you need help with');
-    let fullStack = React.createElement('div', {className: 'slideshow', id: 'skills'}, 'Full Stack Development?');
-    // const fullStack = React.createElement('div', {className: 'slideshow', id: 'fullstack'}, 'Full Stack Development?');
-    // const fullStack = React.createElement('div', {className: 'slideshow', id: 'fullstack'}, 'Full Stack Development?');
+    let fullStack = React.createElement('div', {className: 'slideshow', id: 'fullstack'}, 'Full Stack Development?');
+    let embeddedSystems = React.createElement('div', {className: 'slideshow', id: 'embedded'}, 'Embedded Systems?');
+    let mobileApps = React.createElement('div', {className: 'slideshow', id: 'mobile'}, 'Mobile Application Development?');
+    let distributed = React.createElement('div', {className: 'slideshow', id: 'distributed'}, 'Distributed / Parallel Programming?');
 
-    let slideshow = React.createElement('div', {className: 'slideshow', id: 'slideshow'}, title, fullStack);
+
+    let slideshow = React.createElement('div', {className: 'slideshow', id: 'slideshow'}, title, fullStack, embeddedSystems, mobileApps, distributed);
 
     return slideshow;
   }
@@ -44,14 +46,14 @@ class Slideshow extends React.Component{
 
 class AboutMe extends React.Component{
 
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
   }
 
   render(){
     // Summary
     let sumString = "Hi there, my name is Rick. I am an aspiring Software Developer based in Winnipeg, Manitoba. " +
-    "I acquired my BSC in Computer Engineering (with a focus in Software Engineering) from the University of Manitoba in " +
+    "I acquired my BSc in Computer Engineering (with a focus in Software Engineering) from the University of Manitoba in " +
     "June of 2019. Electrical systems have always facinated me since age; growing up alongside massive technilogical leaps in " + 
     "automation and ubiquity have only strengthened that facination. My past-times include snowboarding, video games, camping and " +
     "and tinkering with various software on my computer. I am open to any and all opportunities aimed at developing " +
@@ -74,7 +76,7 @@ class AboutMe extends React.Component{
     svg = React.createElement('svg', {className: 'svg', id:'email', viewBox: '0 0 24 24'}, path);
     let email = React.createElement('a', {target: '_blank', href:'mailto:rickmaelikconstantine@live.com'}, svg);
 
-    let findMe = React.createElement('div', {className: 'find-me'}, 'Find Me:');
+    let findMe = React.createElement('div', {id: 'find-me'}, 'Find Me:');
 
     let aboutMe = React.createElement('div', {className: 'about-me'}, summary, findMe, github, linkedIn, email);
 
@@ -85,8 +87,8 @@ class AboutMe extends React.Component{
 // Header
 class Header extends React.Component{
 
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
   }
 
   render() {

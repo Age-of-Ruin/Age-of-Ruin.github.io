@@ -46,12 +46,11 @@ body {
     display: inline-block;
     font-size: 50px;
     font-family: 'Audiowide';
-    font-size: 5vmin;
 }
 
 #selfee {
     display: inline-block;
-    margin-left: 1%;
+    margin-left: 1vh;
     width: 100px;
     height: 100px;
     border-radius: 50px;
@@ -59,7 +58,7 @@ body {
     
 }
 
-.find-me {
+#find-me {
     font-size: 40px;
     font-family: 'Audiowide';
     margin-top: 30vh;
@@ -81,19 +80,88 @@ body {
     font-size: 10vmin;
     font-family: 'Audiowide';
     overflow: hidden;
+    margin-left: 2vh;
+    margin-right: 2vh;
 }
 
-#skills {
+#fullstack {
     position: relative;
-    animation: example 6s infinite;
+    animation: fullstack 30s infinite;
     height: 53.6vh;
     color: #DEF2F1;
 }
 
-@keyframes example {
+#embedded{
+    position: relative;
+    animation: embedded 30s infinite;
+    height: 53.6vh;
+    margin-top: -53.6vh;
+    color: #DEF2F1;
+}
+
+#mobile{
+    position: relative;
+    animation: mobile 30s infinite;
+    height: 53.6vh;
+    margin-top: -53.6vh;
+    color: #DEF2F1;
+}
+
+#distributed{
+    position: relative;
+    animation: distributed 30s infinite;
+    height: 53.6vh;
+    margin-top: -53.6vh;
+    color: #DEF2F1;
+}
+
+@keyframes fullstack {
     0% {opacity: 0; top: 2vh}
-    50% {opacity: 1}
-    100% {opacity: 0; top: 35vh}
+    12.5% {opacity: 1}
+    25% {opacity: 0; top: 30vh}
+    37.5% {opacity: 0; top: 30vh}
+    50% {opacity: 0; top: 30vh}
+    62.5% {opacity: 0; top: 30vh}
+    75% {opacity: 0; top: 30vh}
+    87.5% {opacity: 0; top: 30vh}
+    100% {opacity: 0; top: 30vh}
+}
+
+
+@keyframes embedded {
+    0% {opacity: 0; top: 2vh}
+    12.5% {opacity: 0; top: 2vh}
+    25% {opacity: 0; top: 2vh}
+    37.5% {opacity: 1}
+    50% {opacity: 0; top: 30vh}
+    62.5% {opacity: 0; top: 30vh}
+    75% {opacity: 0; top: 30vh}
+    87.5% {opacity: 0; top: 30vh}
+    100% {opacity: 0; top: 30vh}
+}
+
+@keyframes mobile {
+    0% {opacity: 0; top: 2vh}
+    12.5% {opacity: 0; top: 2vh}
+    25% {opacity: 0; top: 2vh}
+    37.5% {opacity: 0; top: 2vh}
+    50% {opacity: 0; top: 2vh}
+    62.5% {opacity: 1}
+    75% {opacity: 0; top: 30vh}
+    87.5% {opacity: 0; top: 30vh}
+    100% {opacity: 0; top: 30vh}
+}
+
+@keyframes distributed {
+    0% {opacity: 0; top: 2vh}
+    12.5% {opacity: 0; top: 2vh}
+    25% {opacity: 0; top: 2vh}
+    37.5% {opacity: 0; top: 2vh}
+    50% {opacity: 0; top: 2vh}
+    62.5% {opacity: 0; top: 2vh}
+    75% {opacity: 0; top: 2vh}
+    87.5% {opacity: 1}
+    100% {opacity: 0; top: 30vh}
 }
 
 svg {
