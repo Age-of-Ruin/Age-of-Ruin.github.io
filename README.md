@@ -1,4 +1,4 @@
-# RickMConstantine.github.io
+# rickmconstantine.github.io
 
 ## Profile
 
