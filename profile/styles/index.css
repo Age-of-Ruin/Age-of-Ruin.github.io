@@ -121,52 +121,82 @@ body {
     color: #DEF2F1;
 }
 
+#web{
+    position: relative;
+    animation: web 30s infinite;
+    height: 53.6vh;
+    margin-top: -53.6vh;
+    color: #DEF2F1;
+}
+
 @keyframes fullstack {
     0% {opacity: 0; top: 2vh}
-    12.5% {opacity: 1}
-    25% {opacity: 0; top: 30vh}
-    37.5% {opacity: 0; top: 30vh}
+    10% {opacity: 1}
+    20% {opacity: 0; top: 30vh}
+    30% {opacity: 0; top: 30vh}
+    40% {opacity: 0; top: 30vh}
     50% {opacity: 0; top: 30vh}
-    62.5% {opacity: 0; top: 30vh}
-    75% {opacity: 0; top: 30vh}
-    87.5% {opacity: 0; top: 30vh}
+    60% {opacity: 0; top: 30vh}
+    70% {opacity: 0; top: 30vh}
+    80% {opacity: 0; top: 30vh}
+    90% {opacity: 0; top: 30vh}
     100% {opacity: 0; top: 30vh}
 }
 
 
 @keyframes embedded {
     0% {opacity: 0; top: 2vh}
-    12.5% {opacity: 0; top: 2vh}
-    25% {opacity: 0; top: 2vh}
-    37.5% {opacity: 1}
+    10% {opacity: 0; top: 2vh}
+    20% {opacity: 0; top: 2vh}
+    30% {opacity: 1}
+    40% {opacity: 0; top: 30vh}
     50% {opacity: 0; top: 30vh}
-    62.5% {opacity: 0; top: 30vh}
-    75% {opacity: 0; top: 30vh}
-    87.5% {opacity: 0; top: 30vh}
+    60% {opacity: 0; top: 30vh}
+    70% {opacity: 0; top: 30vh}
+    80% {opacity: 0; top: 30vh}
+    90% {opacity: 0; top: 30vh}
     100% {opacity: 0; top: 30vh}
 }
 
 @keyframes mobile {
     0% {opacity: 0; top: 2vh}
-    12.5% {opacity: 0; top: 2vh}
-    25% {opacity: 0; top: 2vh}
-    37.5% {opacity: 0; top: 2vh}
-    50% {opacity: 0; top: 2vh}
-    62.5% {opacity: 1}
-    75% {opacity: 0; top: 30vh}
-    87.5% {opacity: 0; top: 30vh}
+    10% {opacity: 0; top: 2vh}
+    20% {opacity: 0; top: 2vh}
+    30% {opacity: 0; top: 2vh}
+    40% {opacity: 0; top: 2vh}
+    50% {opacity: 1}
+    60% {opacity: 0; top: 30vh}
+    70% {opacity: 0; top: 30vh}
+    80% {opacity: 0; top: 30vh}
+    90% {opacity: 0; top: 30vh}
     100% {opacity: 0; top: 30vh}
 }
 
 @keyframes distributed {
     0% {opacity: 0; top: 2vh}
-    12.5% {opacity: 0; top: 2vh}
-    25% {opacity: 0; top: 2vh}
-    37.5% {opacity: 0; top: 2vh}
+    10% {opacity: 0; top: 2vh}
+    20% {opacity: 0; top: 2vh}
+    30% {opacity: 0; top: 2vh}
+    40% {opacity: 0; top: 2vh}
     50% {opacity: 0; top: 2vh}
-    62.5% {opacity: 0; top: 2vh}
-    75% {opacity: 0; top: 2vh}
-    87.5% {opacity: 1}
+    60% {opacity: 0; top: 2vh}
+    70% {opacity: 1}
+    80% {opacity: 0; top: 30vh}
+    90% {opacity: 0; top: 30vh}
+    100% {opacity: 0; top: 30vh}
+}
+
+@keyframes web {
+    0% {opacity: 0; top: 2vh}
+    10% {opacity: 0; top: 2vh}
+    20% {opacity: 0; top: 2vh}
+    30% {opacity: 0; top: 2vh}
+    40% {opacity: 0; top: 2vh}
+    50% {opacity: 0; top: 2vh}
+    60% {opacity: 0; top: 2vh}
+    70% {opacity: 0; top: 2vh}
+    80% {opacity: 0; top: 2vh}
+    90% {opacity: 1}
     100% {opacity: 0; top: 30vh}
 }
 
