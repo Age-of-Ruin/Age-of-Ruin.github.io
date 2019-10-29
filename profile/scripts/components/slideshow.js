@@ -1,0 +1,20 @@
+// Slideshow
+class Slideshow extends React.Component{
+
+    constructor(props){
+      super(props);
+    }
+  
+    render(){
+      let title = React.createElement('div', {className: 'slideshow', id: 'slideshow-title'}, 'Do you need help with');
+      let fullStack = React.createElement('div', {className: 'slideshow', id: 'fullstack'}, 'Full Stack Development?');
+      let embeddedSystems = React.createElement('div', {className: 'slideshow', id: 'embedded'}, 'Embedded Systems?');
+      let mobileApps = React.createElement('div', {className: 'slideshow', id: 'mobile'}, 'Mobile Application Development?');
+      let distributed = React.createElement('div', {className: 'slideshow', id: 'distributed'}, 'Distributed / Parallel Programming?');
+  
+  
+      let slideshow = React.createElement('div', {className: 'slideshow', id: 'slideshow'}, title, fullStack, embeddedSystems, mobileApps, distributed);
+  
+      return slideshow;
+    }
+  }
