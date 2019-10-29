@@ -94,3 +94,5 @@ class AboutMe extends React.Component{
       return aboutMe;
     }
   }
+
+  export default AboutMe;

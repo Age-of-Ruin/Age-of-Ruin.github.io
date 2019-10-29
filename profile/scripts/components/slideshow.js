@@ -18,3 +18,5 @@ class Slideshow extends React.Component{
       return slideshow;
     }
   }
+
+  export default Slideshow;
