@@ -10,6 +10,7 @@ class Slideshow extends React.Component{
       let fullStack = React.createElement('div', {className: 'slideshow', id: 'fullstack'}, 'Full Stack Development?');
       let embeddedSystems = React.createElement('div', {className: 'slideshow', id: 'embedded'}, 'Embedded Systems?');
       let mobileApps = React.createElement('div', {className: 'slideshow', id: 'mobile'}, 'Mobile Application Development?');
+      let distributed = React.createElement('div', {className: 'slideshow', id: 'distributed'}, 'Distributed / Parallel Programming?');
       let webDesign = React.createElement('div', {className: 'slideshow', id: 'web'}, 'Reponsive Web Design?');
 
       let slideshow = React.createElement('div', {className: 'slideshow', id: 'slideshow'}, title, fullStack, embeddedSystems, mobileApps, distributed, webDesign);
