@@ -61,7 +61,7 @@ class AboutMe extends React.Component{
       // Summary
       let sumString = "Hi there, my name is Rick. I am an aspiring Software Developer based in Winnipeg, Manitoba. " +
       "I acquired my BSc in Computer Engineering (with a focus in Software Engineering) from the University of Manitoba in " +
-      "June of 2019. Electrical systems have always facinated me since a young age; growing up alongside massive technilogical leaps in " + 
+      "June of 2019. Electrical systems have always facinated me since a young age; growing up alongside massive technological leaps in " + 
       "automation and ubiquity have only strengthened that facination. My past-times include snowboarding, video games, camping and " +
       "and tinkering with various software on my computer. I am open to any and all opportunities aimed at developing " +
       "both my technical/coding skills and communication ability. If you are interested in reaching me or wish to view some of my work, " +
