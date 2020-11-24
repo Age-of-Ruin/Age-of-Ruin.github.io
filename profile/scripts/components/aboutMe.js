@@ -63,7 +63,7 @@ class AboutMe extends React.Component{
       "I acquired my BSc in Computer Engineering (with a focus in Software Engineering) from the University of Manitoba in " +
       "June of 2019. Electrical systems have always facinated me since a young age; growing up alongside massive technological leaps in " + 
       "automation and ubiquity have only strengthened that facination. My past-times include snowboarding, video games, camping and " +
-      "and tinkering with various software on my computer. I am open to any and all opportunities aimed at developing " +
+      "tinkering with various software on my computer. I am open to any and all opportunities aimed at developing " +
       "both my technical/coding skills and communication ability. If you are interested in reaching me or wish to view some of my work, " +
       "please follow any of the links below. I would love to make your acqaintance!"
       let summary = React.createElement('p', {className: 'intro', id: 'summary'}, sumString);
